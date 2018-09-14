@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+h4 {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+}
+form {
+    border-width: thick;
+    width:auto;
+    margin:30px;
+}
+body {
+border-style:solid;
+</style>
+</head>
+
+<body>
+		
+		<div id="form">
+			<form action="">
+			<h2> Formulário de solicitação de informação (pessoa fisica) </h2>
+		<h4> As informações abaixo são obrigatorias. </h4>
+				<b>Nome: </b><br><input type="text" name="nome" value="" size="35" pattern="[a-z\s]+$" required="yes"><br>
+				<p> </p>
+				<b>CPF: </b><br><input type="number" name="cpf" value="" size="35" pattern="[a-z\s]+$" required="yes"><br>
+				<p> Ou se preferir informar outro documento de identificação (RG, CNH, Passaporte, RNE ou outro documento válido. Se
+				a opção for por RG, indicar órgão emissor e UF): </p>
+				
+				<b>Tipo de documento: </b> <br><input type="text" name="nome
+                " value="" size="35" size="35" pattern="[a-z\s]+$" required="yes"> <b>N°: </b> <input type="number" name="cpf" value="" size="35" size="35" pattern="[a-z\s]+$" required="yes"><br>
+				<p> </p>
+				<b>Endereço Eletronico (E-mail): </b> <br><input type="text" name="nome" value="" size="35" ><br>
+				<p>ou</p>
+				<b>Endereço Fisico(Rua, N°, Complemento, Bairro): </b><br><input type="text" name="nome" value="" size="35" size="35" pattern="[a-z\s]+$" required="yes"><br>
+				<p> </p>
+				<b>Cidade: </b> <input type="text" name="nome" value="" size="35" pattern="[a-z\s]+$" required="yes"> <b>Estado: </b><input type="text" name="nome" value="" size="35" pattern="[a-z\s]+$" required="yes"> <b>
+				UF: </b> <input type="text" name="nome" value="" size="35"  pattern="[a-z\s]+$" required="yes"><br>
+				<p></p>
+				<b>CEP: </b><input type="text" name="nome" value="" size="35" pattern="[a-z\s]+$" required="yes"> <b>País: </b> <input type="text" name="nome" value="" size="35" pattern="[a-z\s]+$" required="yes"><br>
+				
+				<h4>Os campos seguir são opcionais e se preenchidos contribuiram para a melhoria de nossos serviços</h4>
+                
+				<br><b>Sexo: </b>Masculino<input type="radio" name="sexo" value="masculino">Feminino<input type="radio" name="sexo" value="feminino">
+				<b>Data de Nascimento: </b><input type="date" name="data_aniversario"></br>
+                <p></p>
+                <b>Escolaridade: </b><br> <input type="radio" name="school" value="sem"> Sem Instrução Formal <input type="radio" name="school" value="super"> Ensino Superior <input type="radio" name="school" value="dot"> Doutorado
+               <br><input type="radio" name="school" value="fund"> Ensino Fundamental <input type="radio" name="school" value="esp"> Especialização <br> <input type="radio" name="school" value="med"> Ensino Médio <input type="radio" name="school" value="mest"> Mestrado</br>
+               <p></p>
+               <b>Oculpação Principal / Profissão: </b>
+               <br> <input type="radio" name="work" value="emp"> Empregado / Setor Privado <input type="radio" name="work" value="pes"> Pesquisador <input type="radio" name="work" value="serpube"> Servidor Público Estadual <br> <input type="radio" name="work" value="jor"> Jornalista <input type="radio" name="work" value="prof"> Professor <input type="radio" name="work" value="serpubm"> Servidor Publico Municipal <br> <input type="radio" name="work" value="mempp"> Membro de Partido Politico <input type="radio" name="work" value="est"> Estudante <input type="radio" name="work" value="ongn"> Membro de ONG Nacional <br> <input type="radio" name="work" value="repres"> Representante de Sindicato <input type="radio" name="work" value="empr"> Empresário / Empreendedor <input type="radio" name="work" value="ongi"> Membro de ONG Internacional <br><input type="radio" name="work" value="lib"> Prof. Liberal / Autônomo <input type="radio" name="work" value="serpubf"> Servidor Publico Federal <input type="radio" name="work" value="outras"> Outras
+               <p> </p>
+               <br> <b>Telefone</b> <input type="text" name="tel" value="" size="9">
+				
+				<h4> Especificação do pedido de acesso à informação</h4>
+                <p></p>
+               <b> Órgão/Entidade destinatário do pedido:</b><br><input type="text" name="nome" value="" size="50">
+                <p></p>
+                <b>Forma preferencial de recebimento da resposta</b><br>
+                <input type="radio" name="resp" value="busc"> Buscar/Consultar Pessoalmente <input type="radio" name="resp" value="email"> E-mail <input type="radio" name="resp" value="cart"> Por Carta(com custo)<br>   
+                <p></p>
+ 
+                <b>Especificação do pedido:</b><br>
+				<textarea name="pedido" rows="10" cols="36"></textarea><br><br>
+				<input type="submit" value="Enviar">
+			</form> 
+		</div>
+		
+	</body>
+</html>
