@@ -1,0 +1,11 @@
+h4 {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+}
+form {
+    border-width: thick;
+    width:auto;
+    margin:30px;
+}
+body {
+border-style:solid;
